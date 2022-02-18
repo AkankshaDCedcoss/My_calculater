@@ -1,0 +1,79 @@
+
+.container {
+  text-align: center;
+  margin-top: 10%;
+}
+table {
+  margin: auto;
+  background-color: black;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid black;
+}
+button {
+  width: 80px;
+  height: 60px;
+  font-size: 1.6em;
+  color: white;
+}
+#display {
+  padding-left: -10px;
+  padding-right: -30px;
+  padding-top: 90px;
+  background-color: #2d2d36;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: white;
+  font-size: 1.63em;
+  border: 2px solid black;
+  text-align: right;
+}
+#row1 {
+  background-color: #414149;
+}
+#data1 {
+  background-color: #fe9f0b;
+}
+#button4,
+#buttonplus,
+#buttonminus,
+#buttonX,
+#buttonequal {
+  background-color: #fe9f0b;
+  border: none;
+  outline: none;
+}
+#button0 {
+  width: 168px;
+  height: 60px;
+  border: none;
+  outline: none;
+}
+#button1,
+#button2,
+#button3 {
+  background-color: #414149;
+  border: none;
+  outline: none;
+}
+#button5,
+#button6,
+#button7,
+#button8,
+#button9,
+#button10,
+#button11,
+#button12,
+#button13,
+#button0,
+#buttondot {
+  background-color: #606168;
+  border: none;
+  outline: none;
+}
+#row2,
+#row3,
+#row4,
+#row4 {
+  background-color: #606168;
+}

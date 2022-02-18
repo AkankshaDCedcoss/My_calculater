@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="style.css" />
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My_calculater</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="div1">
+        <input type="text" name="display" id="display" />
+      </div>
+
+      <table>
+        <tr id="row1">
+          <td>
+            <button id="button1" value="C" onclick="clr()">AC</button>
+          </td>
+          <td>
+            <button id="button2">+/-</button>
+          </td>
+          <td>
+            <button id="button3" value="%" onclick="insert('%')">%</button>
+          </td>
+          <td id="data1">
+            <button id="button4" value="/" onclick="insert('/')">/</button>
+          </td>
+        </tr>
+        <tr id="row2">
+          <td>
+            <button id="button5" value="7" onclick="insert(7)">7</button>
+          </td>
+          <td>
+            <button id="button6" value="8" onclick="insert(8)">8</button>
+          </td>
+          <td>
+            <button id="button7" value="9" onclick="insert(9)">9</button>
+          </td>
+          <td>
+            <button id="buttonX" value="*" onclick="insert('*')">X</button>
+          </td>
+        </tr>
+        <tr id="row3">
+          <td>
+            <button id="button8" value="4" onclick="insert(4)">4</button>
+          </td>
+          <td>
+            <button id="button9" value="5" onclick="insert(5)">5</button>
+          </td>
+          <td>
+            <button id="button10" value="6" onclick="insert(6)">6</button>
+          </td>
+          <td>
+            <button id="buttonminus" value="-" onclick="insert('-')">-</button>
+          </td>
+        </tr>
+        <tr id="row4">
+          <td>
+            <button id="button11" value="1" onclick="insert(1)">1</button>
+          </td>
+          <td>
+            <button id="button12" value="2" onclick="insert(2)">2</button>
+          </td>
+          <td>
+            <button id="button13" value="3" onclick="insert(3)">3</button>
+          </td>
+          <td>
+            <button id="buttonplus" value="+" onclick="insert('+')">+</button>
+          </td>
+        </tr>
+        <tr id="row5">
+          <td colspan="2">
+            <button id="button0" value="0" onclick="insert(0)">0</button>
+          </td>
+          <td>
+            <button id="buttondot" value="." onclick="insert('.')">.</button>
+          </td>
+          <td>
+            <button id="buttonequal" value="=" onclick="equal()">=</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
